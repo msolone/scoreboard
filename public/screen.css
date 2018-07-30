@@ -2,8 +2,97 @@ html {
   height: 100%;
 }
 
+*{
+  padding: 0;
+  margin: 0;
+}
+
 body {
   margin: 0;
   min-height: 100%;
   font: 16px / 1 sans-serif;
 }
+
+.header {
+  font-size: 4em;
+  display: flex;
+  justify-content: center;
+  margin-top: 1em;
+}
+
+.main-content {
+  display: flex;
+  justify-content: space-evenly;
+
+}
+
+.main-content {
+  list-style: none;
+  display: flex;
+  align-items: center;
+}
+
+.main-content input {
+  width: 10em;
+}
+
+.main-content li {
+  padding: 1em 1em;
+
+}
+
+.hometeam {
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  align-items: center;
+}
+
+.home-banner {
+  font-size: 2em;
+}
+
+
+
+.home-score-numbers {
+ font-size: 4em; 
+}
+
+.hometeam-name {
+  display: flex;
+  list-style: none;
+}
+
+.hometeam-score-update {
+  display: flex;
+  list-style: none;
+}
+
+
+
+.awayteam {
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  align-items: center; 
+}
+
+.away-banner {
+  font-size: 2em;
+}
+
+.away-score-numbers {
+ font-size: 4em; 
+}
+
+.awayteam-name {
+  display: flex;
+  list-style: none;
+}
+
+.awayteam-score-update {
+  display: flex;
+  list-style: none;
+}
+
+
