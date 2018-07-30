@@ -11,6 +11,10 @@ body {
   margin: 0;
   min-height: 100%;
   font: 16px / 1 sans-serif;
+  background-image: url('https://bit.ly/2KbyMSa');
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
 }
 
 .header {
@@ -33,7 +37,8 @@ body {
 }
 
 .main-content input {
-  width: 10em;
+  width: 17em;
+  height: 2em;
 }
 
 .main-content li {
@@ -49,7 +54,7 @@ body {
 }
 
 .home-banner {
-  font-size: 2em;
+  font-size: 1.8em;
 }
 
 
@@ -61,14 +66,20 @@ body {
 .hometeam-name {
   display: flex;
   list-style: none;
+  font-size: 2em;
+}
+
+.update-hometeam-name {
+  font-size: 0.8em;
+  padding: 8px;
+  border-radius: 1em;
 }
 
 .hometeam-score-update {
   display: flex;
   list-style: none;
+  font-size: 1.5em;
 }
-
-
 
 .awayteam {
   display: flex;
@@ -88,11 +99,20 @@ body {
 .awayteam-name {
   display: flex;
   list-style: none;
+  font-size: 1.8em;
+}
+
+.update-awayteam-name {
+  font-size: 0.8em;
+  padding: 8px;
+  border-radius: 1em;
 }
 
 .awayteam-score-update {
   display: flex;
   list-style: none;
+  font-size: 1.5em;
 }
+
 
 
