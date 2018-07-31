@@ -146,8 +146,16 @@ document.querySelector('.field-goal2').addEventListener('click', fieldgoalAwayte
 
 
 
-
-
+const changeQuarter = () => {
+  // Finding the current quarter
+  const currentQuarter = parseInt(document.querySelector('.quarter-number').textContent)
+  // Setting newQuarter to currentQuarter + 1
+  const newQuarter = currentQuarter + 1
+  // Changing the 'quarter-number' to the newQuarter
+  document.querySelector('.quarter-number').textContent = newQuarter
+}
+// when 'change-quarter' button is hit the changeQuarter function will run
+document.querySelector('.change-quarter').addEventListener('click', changeQuarter)
 
 
 
