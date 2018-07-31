@@ -24,16 +24,14 @@ body {
   margin-top: 1em;
 }
 
-.main-content {
-  display: flex;
-  justify-content: space-evenly;
 
-}
 
 .main-content {
   list-style: none;
   display: flex;
   align-items: center;
+  display: flex;
+  justify-content: space-evenly;
 }
 
 .main-content input {
@@ -54,7 +52,8 @@ body {
 }
 
 .home-banner {
-  font-size: 1.8em;
+  font-size: 2em;
+  text-align: center;
 }
 
 
@@ -66,19 +65,30 @@ body {
 .hometeam-name {
   display: flex;
   list-style: none;
-  font-size: 2em;
+  font-size: 30px;
+  
 }
 
 .update-hometeam-name {
   font-size: 0.8em;
   padding: 8px;
-  border-radius: 1em;
+  border-radius: 0.8em;
 }
 
 .hometeam-score-update {
   display: flex;
   list-style: none;
   font-size: 1.5em;
+}
+
+.hometeam-score-update button{
+  padding: 1em;
+  font-size: 0.5em;
+  border-radius: 0.4em;
+  font-size: 12px;
+  font-weight: bold;
+
+ 
 }
 
 .awayteam {
@@ -99,7 +109,7 @@ body {
 .awayteam-name {
   display: flex;
   list-style: none;
-  font-size: 1.8em;
+  font-size: 30px;
 }
 
 .update-awayteam-name {
@@ -114,5 +124,82 @@ body {
   font-size: 1.5em;
 }
 
+.awayteam-score-update button{
+  padding: 1em;
+  font-size: 0.5em;
+  border-radius: 0.4em;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+
+@media (max-width: 600px) {
+
+  body {
+    background-image: url("https://bit.ly/2vk5kUx");
+    background-position: center;
+    min-height: 100%;
+    background-repeat: repeat;
+    background-size: auto;
+  }
+
+  .main-content {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+  }
+
+  .main-content input {
+    width: 11em;
+    height: 2em;
+  }
+
+  .hometeam-name {
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    font-size: 2em;
+    align-items: center;
+  }
+
+  .hometeam-score-update {
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    font-size: 1.5em;
+    align-items: center;
+  }
+
+  .awayteam-name {
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    font-size: 2em;
+    align-items: center;
+  }
+
+  .awayteam-score-update {
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    font-size: 1.5em;
+    align-items: center;
+  }
+
+  .hometeam-namer {
+    font-size: 1.8em;
+    display: none;
+  }
+
+  .awayteam-namer {
+    font-size: 2em;
+    display: none;
+  }
+
+  
+}
 
 
